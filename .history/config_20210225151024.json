@@ -1,0 +1,32 @@
+{
+  "id": [
+    188914,
+    188915,
+    189034,
+    189035,
+    189410,
+    189411,
+    189460,
+    189615,
+    189625,
+    189626,
+    184431,
+    184759,
+    184760,
+    185086,
+    185087,
+    185168,
+    185405,
+    185407,
+    185408,
+    185751,
+    185752,
+    185987,
+    185988,
+    188703
+  ],
+  "product_info_url": "https://www.canadacomputers.com/product_info.php?ajaxstock=true&itemid=",
+  "product_web_url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=",
+  "RTX30_url": "https://api.nvidia.partners/store/products?store_id=53&cid=tb_id118&mnp=559&mxp=3749&sort=lp&category=GPU&",
+  "RTX30_url": "https://api.nvidia.partners/store/products?store_id=53&cid=tb_id118&mnp=559&mxp=3749&sort=lp&category=GPU&gpu=RTX%203080,RTX%203070,RTX%203060%20Ti,RTX%203060&"
+}

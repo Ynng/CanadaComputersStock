@@ -1,0 +1,17 @@
+{
+  "name": "canadacomputersstock",
+  "version": "1.0.0",
+  "description": "Auto check Canada Computers Stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ynng",
+  "license": "ISC",
+  "dependencies": {
+    "beepbeep": "^1.3.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
