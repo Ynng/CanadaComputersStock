@@ -11,6 +11,11 @@ function sleep(ms) {
   });
 }
 
+let randomRange = (min, max) => {
+  const r = Math.random() * (max - min) + min;
+  return Math.floor(r);
+};
+
 let checkStock = async (cc_url) => {
   let output = false;
   await fetch(cc_url)
@@ -43,7 +48,7 @@ let checkStock = async (cc_url) => {
         });
       });
     });
-  await sleep(1000);
+  await sleep(randomRange(7, 15) * 1000);
   return output;
 };
 
@@ -112,7 +117,7 @@ let main = async () => {
       await handleSearchData(text);
       pageNum++;
     }
-    await sleep(10000);
+    await sleep(randomRange(50, 180) * 1000);
   }
 };
 main();
